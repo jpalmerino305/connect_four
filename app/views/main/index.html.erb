@@ -8,12 +8,17 @@
 		<script type="text/javascript" src="js/app.js"></script>
 	</head>
 	<body>
-		<h3>Connect Four</h3>
+		<h3>BY: <span class="name">JAME PAUL G. ALMERINO</span></h3>
 		<hr />
-		<table cellspacing="0" id="main"></table>
+		<table cellspacing="0" id="main" class="disabled"></table>
 		<div id="controls">
-		<button>Play</button>
-		<button>Reset</button>
+			<select id="versus">
+				<option value="1" selected="selected">Human</option>
+				<option value="2">Computer</option>
+			</select>
+			<button id="start">Start</button>
+			<button disabled="disabled" id="reset">Reset</button>
+			<span id="loading" style="display: nonex;">Loading...</span>
 		</div>
 	</body>
 </html>
