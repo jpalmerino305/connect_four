@@ -1,3 +1,4 @@
+table#main.disabled { background-color: #e7e4ed; }
 table#main { margin: 0px auto; border: 2px solid #9579d0; border-radius: 10px; padding: 15px 10px 10px 15px; }
 table#main tr  td { border: 1px solid #c5aff3; text-align: center; width: 40px; height: 40px; border-radius: 30px; margin: 0 10px 10px 0; display: inline-block; cursor: pointer; }
 table#main tr  td.unselected { cursor: pointer; }
@@ -5,8 +6,9 @@ table#main tr  td:hover { border: 1px solid #9579d0; background-color: #cdb9f5; 
 table#main tr  td.yellow { border: 1px solid #9579d0; background-color: #ffff00; box-shadow: inset 3px 3px 4px #bcbc02; }
 table#main tr  td.red { border: 1px solid #9579d0; background-color: #ff0000; box-shadow: inset 3px 3px 4px #bd0101; }
 
-
 div#controls { margin: 10px auto; text-align: center;}
 
 table#status { margin: 10px auto; border-top: 1px solid #ccc; border-left: 1px solid #ccc; }
 table#status tr  td { border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px 10px; }
+
+#loading { color: #40bb6b; display: none; }
