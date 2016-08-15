@@ -1,2 +1,2 @@
 == Demo
-http://connect-four-game-app.herokuapp.com
+link:http://connect-four-game-app.herokuapp.com
